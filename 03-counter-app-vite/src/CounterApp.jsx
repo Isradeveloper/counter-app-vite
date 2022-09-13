@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
-import { useState } from 'react'
+import { useState } from 'react' // Importamos el hook useState
 
-export const CounterApp = ({ value }) => {
+export const CounterApp = ({ value }) => { // Funcion de React que tiene cómo parametro un prop de value
 
   // El counter guardará el value y para cambiarlo usamos el set
   // Set cambia el state y hace que este se actualice
-  const [ counter, setCounter ] = useState(value)
+  const [ counter, setCounter ] = useState(value) // Hook, se inicializa con el valor del prop
 
   const sumarValue = () => {
     setCounter(counter + 1);
