@@ -9,6 +9,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <HelloWorldApp/> */}
     {/* <FirstApp subTitle={12}/> */}
-    <CounterApp value={ 117 }/>
+    <CounterApp value={ 0 }/>
   </React.StrictMode>
     )
