@@ -28,7 +28,7 @@ export const CounterApp = ({ value }) => { // Funcion de React que tiene cómo p
       {/* Si no mandamos parametros, se enviará el evento por defecto */}
       <button onClick={(evento) => sumarValue()}> +1 </button>
       <button onClick={(evento) => restarValue() }> -1 </button>
-      <button onClick={(evento) => reiniciarValue()}> Reset </button>
+      <button  aria-label='btn-reset' onClick={(evento) => reiniciarValue()}> Reset </button>
     </>
   );
 }
